@@ -1,4 +1,4 @@
-ublic class Main{
+public class Main{
     public static void main (string[] args) {
         System.out.println("RPG:スッキリ魔王征伐");
         System.out.println("Ver.0.1 by 湊");

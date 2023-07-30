@@ -1,4 +1,4 @@
-ublic class Main{
+public class Main{
     public static void main (string[] args) {
      int age;
      age  = 30;
