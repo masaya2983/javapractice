@@ -4,9 +4,9 @@ public class Main{
       int pie  = 5;
       System.out.println("半径" +  pie  + "cmのパイの面積");
       System.out.println("pie * pie * pie");
-      System.out.println("パイの半径を倍にします")
+      System.out.println("パイの半径を倍にします");
       pie = 10;
-      System.out.println("半径" + pie + "cmのパイ"
-      System.out.println(pie  * pie * pie)
+      System.out.println("半径" + pie + "cmのパイ");
+      System.out.println(pie  * pie * pie);
     }
     }
