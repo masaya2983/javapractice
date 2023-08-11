@@ -4,7 +4,7 @@ public class Main{
     int sum = scores[1] + scores[2] + scores[3] + scores[4] + scores[5];
     int avg = sum / scores.lenght;
     System.out.println("合格点: " + sum);
-    System.out.println("平均点: " + avg)
+    System.out.println("平均点: " + avg);
     
   }
 }
