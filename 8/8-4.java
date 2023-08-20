@@ -1,4 +1,4 @@
 public class Hero{
   String name;
-  int 
+  int hp
 }
