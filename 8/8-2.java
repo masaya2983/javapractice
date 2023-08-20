@@ -5,5 +5,5 @@ public class Hero{
   public void sleep (){・・・}
   public void sit (){・・・}
   public void slip (){・・・}
-  public void  (){・・・}
+  public void run (){・・・}
 }
