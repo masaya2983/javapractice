@@ -1,8 +1,11 @@
-public class Matango{
-  int hp;
-  final int LEVEL = 10;
-  char suffix;
-  public void run(){
-    System.out.println("お化けキノコ" + this.suffix + "は逃げ出した！");
+public class Main{
+  public static void main(String[]argss){
+    Hero h = new Hero():
+    h.name = "ミナト";
+    h.hp = 100;
+    
+    Matango m1 = new Matango();
+    m1.hp = 50;
+    m1.suffix = 'A';
   }
 }
