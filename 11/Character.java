@@ -5,6 +5,9 @@ public class Character{
   public void run(){
     System.out.println(this.name + "の攻撃");
   }
+  public void attack(Matango m){
+    
+  }
   //戦う
   public void attack(Matango m) {
     System.out.println(this.name + "の攻撃");
