@@ -5,6 +5,9 @@ public class Item{
     this.name = name;
     this.price  = 0;
   }
+  public int getDamage{
+    return 10;
+  }
   public Item(String name,int price){
     this.name = name;
   this.price = price;
