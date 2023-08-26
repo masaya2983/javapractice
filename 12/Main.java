@@ -6,6 +6,5 @@ public class Main{
     c.name = "アサカ";
     c.attack(m);
     c.fireball(m);
-    Life if = new Wizard;
   }
 }
