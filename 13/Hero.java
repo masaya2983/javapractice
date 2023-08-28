@@ -20,7 +20,7 @@ public class Hero{
     System.out.println("お化けキノコ" + m.suffix + "から2ポイントの反撃を受けた");
     this.hp -= 2;
     if (this.hp <= 0 ){
-      this.die()
+      this.die();
     }
   }
     
