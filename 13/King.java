@@ -4,5 +4,6 @@ public class King{
     System.out.println("王様 : 長旅疲れたであろう。";)
     System.out.println("王様 :まずは城下町を見てるとよい。ではまた会おう。 ");
     h.die();
+    
   }
 }
