@@ -12,5 +12,5 @@ public boolean isValidplayerName(String name){
       return false;
     }
   }
-  return true
+  return true;
 }
