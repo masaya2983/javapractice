@@ -8,6 +8,6 @@ public class Main{
     
     //LocalDateTimeとZonedTimeの相互互換
     ZonedDateTime z1 = l2.atZone(ZoneId.of("Europe/London"));
-    LocalDateTime l3 = z1.toLocalDate
+    LocalDateTime l3 = z1.toLocalDateTime();
   }
 }
