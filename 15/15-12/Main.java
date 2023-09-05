@@ -2,7 +2,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class Main{
-  public static void main(String[]args)
+  public static void main(String[]args){
   Calendar c =  Calendar.getInstance();
   //6つのint値からDateインスタンスを生成
   c.set(2019,8,221,23,45);
@@ -14,4 +14,5 @@ public class Main{
   c.setTime(now);
   int y = c.get(Calendar.YEAR);
   System.out.println("今年は" + y +"年です");
+  }
 }
