@@ -6,7 +6,7 @@ public class Main{
     try{
       fw = new FileWriter("date.txt")
       fw.write("hello!");
-    }atch (Exception e){
+    }catch (Exception e){
       System.out.println("何らかの例外が発生しました");
     } finally {
       try{
