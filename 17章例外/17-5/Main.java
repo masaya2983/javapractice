@@ -1,14 +1,14 @@
 import java.io.*;
 
 public class Main{
-    public static void main(String[]args){
-      try{
+  public static void main(String[]args){
+    try{
         FileWriter fw = new FileWriter("date.txt");
         fw.write("hello");
       } catch (Exception e) {
-        SYstem.out.println("何らかの例外が発生しました");
+        System.out.println("何らかの例外が発生しました");
       } finally{
-        fw.close()
+        fw.close();
       }
     }
 }
