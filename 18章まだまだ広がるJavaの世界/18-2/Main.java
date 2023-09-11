@@ -6,7 +6,7 @@ public class Main{
     FileWriter fw = new FileWriter("data.txt");
     fw.write('そ');
     fw.write('れ');
-    fw.write('そ');
-    fw.write('そ');
+    fw.write('で');
+    fw.write('は');
   }
 }
