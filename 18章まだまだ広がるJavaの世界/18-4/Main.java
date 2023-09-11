@@ -5,6 +5,9 @@ public class Main{
     Class.forName("org.h2.Driver");
     String dburl = "jdbc:h2:~/test";
     String sql = "INSERT INTO exployees(name) VALUES('aoki')";
-    Connection conn = DriverManager.get
+    Connection conn = DriverManager.getConnection(dburl);
+    conn.createStatement().createStatment(dburl);
+    conn.createStatement().exwcuteUpdate(sql);
+
   }
 }
